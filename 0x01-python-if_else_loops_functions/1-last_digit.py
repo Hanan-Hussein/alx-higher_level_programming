@@ -1,8 +1,7 @@
 #!/usr/bin/python3
 import random
-#number = random.randint(-10000, 10000)
+number = random.randint(-10000, 10000)
 # YOUR CODE HERE
-number = -98
 if number < 0:
     pos_number = abs(number) % 10
     last_digit = -abs(pos_number)
