@@ -5,10 +5,10 @@ if __name__ == "__main__":
     length = len(argv) - 1;
 
     if length == 0:
-        print("0 arguments.");
+         print("{}".format("0 arguments."))
 
     elif length == 1:
-        print("1 argument:");
+        print("{}".format("1 argument:"))
         print("{:d}: {}".format(length, argv[1]))
     else:
         print("{:d} {}".format(length, "arguments:"))
