@@ -2,14 +2,12 @@
 from sys import argv
 
 if __name__ == "__main__":
-    length = len(argv) - 1;
-
+    length = len(argv) - 1
     if length == 0:
-         print("{}".format("0 arguments."))
-
+        print("{}".format("0 arguments."))
     elif length == 1:
         print("{}".format("1 argument:"))
-        print("{:d}: {}".format(length, argv[1]))
+        print("1: {}".format(argv[1]))
     else:
         print("{:d} {}".format(length, "arguments:"))
         for i in range(1, length + 1):
