@@ -2,6 +2,7 @@
 def square(n):
     return n * n
 
+
 def square_matrix_simple(matrix=[]):
     new = [*matrix]
     for i in range(len(new)):
